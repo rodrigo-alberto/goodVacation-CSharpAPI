@@ -1,0 +1,32 @@
+/*--------------------------------------------------
+ #footer
+--------------------------------------------------*/
+
+#footer {
+    background-color: var(--bg-tertiary-color);
+    color: var(--font-primary-color);
+    padding: 3em 2em 1.5em 2em;
+}
+
+#footerTop {
+    margin-bottom: 1.5em;
+}
+
+#socialNetworks img {
+    transition: all 0.2s ease-in-out;
+    width: 25px;
+}
+
+#socialNetworks img:hover {
+    margin-top: -7px;
+}
+
+#footerBottom {
+    font-size: 0.9em; 
+}
+
+@media (max-width: 991px) {
+    #footerBottom .autor {
+        text-align: left !important;
+    }
+}
