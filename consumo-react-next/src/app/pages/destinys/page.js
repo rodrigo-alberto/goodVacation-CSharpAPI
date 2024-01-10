@@ -6,7 +6,7 @@ export default function Destinys() {
   return (
     <>
       <section id="destinations-section">
-        <div className="section-title text-center py-3 px-3">
+        <div className={`${styles.sectionTitle} text-center py-3 px-3`}>
           <h2>Viaje pelos nossos principais destinos!</h2>
           <p>
             Conheça novas culturas, conecte-se com a natureza ou passeie por grandes
@@ -24,7 +24,7 @@ export default function Destinys() {
             Veja mais destinos
           </button>
         </div>
-      </section>{" "}
+      </section>
     </>
 
   )
