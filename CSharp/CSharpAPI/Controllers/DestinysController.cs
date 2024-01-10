@@ -16,11 +16,18 @@ namespace CSharpAPI.Controllers
         _dataContext = dataContext;
     }
 
-    [HttpGet]
-    [Route("/GetAllDestinys")]
+    [HttpGet("GetAllDestinys")]
     public async Task<ActionResult<IEnumerable<Destiny>>> GetAllDestinys()
     {
         return await _dataContext.Destinys.ToListAsync();
+    }
+
+    [HttpGet("GetDestinyById/{id}")]
+    public async Task<ActionResult<Destiny>> GetDestinyById(int id)
+    {
+      var destinySelected = await _dataContext.Destinys.FindAsync(id);
+
+      return destinySelected != null ? Ok(destinySelected) : NotFound();
     }
   }
 }

@@ -14,10 +14,13 @@ namespace CSharpAPI.Models
     [Column("city")]
     public string City { get; set; } = string.Empty;
 
-    // public ArrayList? ImageUrls { get; set; }
-    // public string ImageUrl { get; set; } = string.Empty;
+    [Column("state")]
+    public string State { get; set; } = string.Empty;
+
+    [Column("description")]
+    public string Description { get; set; } = string.Empty;
+    
     [Column("imageUrls")]
     public string[] ImageUrls { get; set; } = new string[5];
-    
   }
 }
