@@ -2,8 +2,11 @@
 
 Repositório criado para manter a C# web API da Good Vacation Agency, bem como o projeto Next.js que a consome, referente à entrega prática do módulo 06 do programa Recode Pro 2023.
 
-<!-- ### Preview:
+### Preview:
 
+![macbook](https://github.com/rodrigo-alberto/goodVacation-CSharpAPI/assets/85527665/5c151901-c24f-40d3-b048-9a3470007e65)
+
+<!--
 ## 📂 Acesso ao projeto:
 
 Acesse diretamente o deploy do projeto através do link: -->
