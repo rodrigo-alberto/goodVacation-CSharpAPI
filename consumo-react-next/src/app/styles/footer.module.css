@@ -25,6 +25,16 @@
     font-size: 0.9em; 
 }
 
+.autor a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.autor a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media (max-width: 991px) {
     #footerBottom .autor {
         text-align: left !important;

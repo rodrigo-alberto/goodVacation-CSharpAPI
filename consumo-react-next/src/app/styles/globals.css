@@ -24,7 +24,6 @@
 }
 
 body {
-  /* font-family: 'Poppins', sans-serif !important; */
   background-color: var(--bg-secondary-color);
 }
 
@@ -35,31 +34,6 @@ header {
 section {
   margin: 4em 0;
 }
-
-/*--------------------------------------------------
-- Forms, labels and inputs general -
---------------------------------------------------*/
-
-/* form label {
-  color: var(--font-quaternary-color);
-  font-size: 15px;
-} */
-
-/* input[type="email"], input[type="text"], form textarea {
-  color: var(--font-quinary-color) !important;
-  font-size: 14px !important;
-  font-weight: 300 !important;
-  resize: none;
-} */
-
-/* .icon-40 {
-  width: 40px;
-  transition: background-color 300ms ease-in-out;
-}
-
-.icon-40:hover {
-  background-color: rgba(218, 218, 218, 0.850);
-} */
 
 /*--------------------------------------------------
 - Buttons general -
@@ -84,6 +58,7 @@ section {
 .btn-outline-primary:hover {
   border-color: var(--border-secondary-color);
   background-color: var(--buttons-primary-bg-color);
+  color: var(--font-primary-color);
 }
 
 /*--------------------------------------------------

@@ -34,7 +34,10 @@ export default function Footer() {
               </div>
               <div className="col-12 col-md-4">
                 <p className={`${styles.autor} fw-light text-end me-3`}>
-                  Desenvolvido por: <span className="fw-medium">Rodrigo Alberto</span> © 2024
+                  Desenvolvido por: <a className="fw-medium mx-1"
+                    href="https://www.linkedin.com/in/rodrigo-alberto-"
+                    target="_blank">Rodrigo Alberto
+                  </a> © 2024
                 </p>
               </div>
             </div>

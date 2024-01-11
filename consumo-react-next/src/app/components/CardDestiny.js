@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from '../styles/cardDestiny.module.css';
+import Link from 'next/link';
 
 export default async function CardDestiny() {
-    const cards = await fetch('http://localhost:5063/GetAllDestinys').then(res => res.json());
+    const cards = await fetch('http://localhost:5063/api/Destinys/GetAllDestinys').then(res => res.json());
     const MIN_DESTINATIONS_RENDER = 4;
 
     return (
@@ -20,12 +21,17 @@ export default async function CardDestiny() {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div className={styles.cardBottom}>
-                                    <p>{card.city}</p>
-                                    <p>-</p>
-                                    <p>{card.state}</p>
-                                    {/* <p>
-                                        R$<span>570,00</span>
-                                    </p> */}
+                                    <p>{card.city} - {card.state}</p>
+                                    <Link
+                                        href={{
+                                            pathname: `../pages/destinyDetails`,
+                                            query: { id: card.id },
+                                        }}
+                                        as={`../pages/destinyDetails/${card.id}`}
+                                        className="text-decoration-none"
+                                    >
+                                        <span className="btn-outline-primary border rounded-circle">+</span>
+                                    </Link>
                                 </div>
                             </li>
                         </ul>

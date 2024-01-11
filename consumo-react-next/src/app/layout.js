@@ -17,7 +17,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <Head>
+      <Head> 
+        {/* Aparentemente, não é mais recomendado usar o 'next/head';*/}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Rodrigo Alberto" />

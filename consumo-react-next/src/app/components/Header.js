@@ -27,7 +27,7 @@ export default function Header() {
               <li className={`${styles.navUtilities} nav-item me-2`}>
                 <div className={`${styles.accountBox} rounded-bottom py-1`}>
                   <Link
-                    href="../"
+                    href="../../"
                     className="nav-link d-flex align-items-center text-decoration-none pt-2 px-2"
                   >
                     <img
@@ -42,7 +42,7 @@ export default function Header() {
               <li className={`${styles.navUtilities} ms-0`}>
                 <div className={`${styles.accountBox} rounded-bottom py-1`}>
                   <Link
-                    href="../pages/destinys"
+                    href="../../pages/destinys"
                     className="nav-link d-flex align-items-center text-decoration-none pt-2 px-2"
                   >
                     <img
