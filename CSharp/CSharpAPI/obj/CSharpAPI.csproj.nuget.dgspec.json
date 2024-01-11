@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\CSharp\\CSharpAPI\\CSharpAPI.csproj": {}
+    "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\goodVacation-CSharpAPI\\CSharp\\CSharpAPI\\CSharpAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\CSharp\\CSharpAPI\\CSharpAPI.csproj": {
+    "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\goodVacation-CSharpAPI\\CSharp\\CSharpAPI\\CSharpAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\CSharp\\CSharpAPI\\CSharpAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\goodVacation-CSharpAPI\\CSharp\\CSharpAPI\\CSharpAPI.csproj",
         "projectName": "CSharpAPI",
-        "projectPath": "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\CSharp\\CSharpAPI\\CSharpAPI.csproj",
+        "projectPath": "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\goodVacation-CSharpAPI\\CSharp\\CSharpAPI\\CSharpAPI.csproj",
         "packagesPath": "C:\\Users\\Telandes Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\CSharp\\CSharpAPI\\obj\\",
+        "outputPath": "C:\\Users\\Telandes Moreira\\Documents\\Arquivos - Code\\Repositorios\\goodVacation-CSharpAPI\\CSharp\\CSharpAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Telandes Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
