@@ -1,0 +1,8 @@
+.sectionTitle h2 {
+    color: var(--bg-quinary-color);
+    font-weight: bold;
+}
+
+.sectionTitle p {
+    color: var(--font-quaternary-color);
+}
